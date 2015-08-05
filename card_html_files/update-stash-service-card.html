@@ -1,0 +1,11 @@
+<polymer-element name="update-stash-service-card" extends="nebrios-form" target="stash_service.update_service">
+    <template>
+        <h2>Create Stash Service</h2>
+        <nebrios-string id="service_slug" label="Service slug" required="true" disabled="true"></nebrios-string>
+        <nebrios-string id="service_name" label="Service name" required="true"></nebrios-string>
+        <nebrios-boolean id="ping" label="Ping service"></nebrios-boolean>
+    </template>
+    <script>
+        Polymer("update-stash-service-card", {});
+    </script>
+</polymer-element>
